@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EAD09C;
+    height: 100svh;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center_content {
+    height: 90%;
+    width: 69%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://th.bing.com/th/id/R.86f7392f987eebf86ca90a449a26c613?rik=lUjcuKOoyAUP0g&riu=http://wallpapercave.com/wp/nBvAShp.jpg&ehk=kfKXdmGj7liId130zuaPZmpDz5vkQ2noiygH1cVPGN4=&risl=&pid=ImgRaw&r=0);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content {
+    height: 50%;
+    width: 50%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #FBF9E190;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+
+.content h1 {
+    color: #983917;
+    font-size: 3em;
+}
+
+.content p {
+    color: #756F5C;
+    font-size: 1.5em;
+}
+
+.shop_now {
+    margin: auto;
+    background-color: #983917;
+    border-radius: 100px;
+    height: 2em;
+    font-size: 1.25em;
+    width: 30%;
+    text-align: center;
+    border: none;
+    transition: 1s;
+    color: #FBF9E1;
+}
+
+.shop_now:hover {
+    box-shadow: 0 0 5em 1em #B77F3D;
+    transition: 1s;
+}
+
+@media(min-width: 1101px) and (max-width: 1500px) {
+    .content {
+        height: 20em;
+    }
+    .content h1 {
+        font-size: 36px;
+    }
+    .content p {
+        font-size: 18px
+    }
+
+    .shop_now {
+        height: 36px;
+        font-size: 14px
+    }
+}
+
+@media(max-width: 1100px) {
+    .content {
+        height: 10em;
+    }
+    .content h1 {
+        font-size: 24px;
+    }
+    .content p {
+        font-size: 12px
+    }
+
+    .shop_now {
+        height: 24px;
+        font-size: 12px;
+        width: 96px
+    }
+}
